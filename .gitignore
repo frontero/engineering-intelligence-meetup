@@ -11,3 +11,12 @@ AGENTS.md
 .github/copilot-instructions.md
 .cursor/
 .claude/
+
+# IDE and OS clutter
+.idea/
+.vscode/
+.fleet/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db

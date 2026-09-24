@@ -52,3 +52,10 @@ assistant should follow on this codebase. This is the part that gets loaded for 
 Short imperative rules with an origin note work best, for example:
 
 - Before adding a dependency, check the wiki's `decisions/adr/` for a ban. (ADR-003)
+
+Include one rule that says where the team's knowledge lives and that the
+assistant reads it before changing code. For run 2 that is the FlowMetrics
+wiki, cloned next to this repo in part C:
+
+- Our decisions, standards and runbooks live in `../flowmetrics-wiki`. Read
+  the relevant ones before you change code, and respect their `status` header.

@@ -101,6 +101,12 @@ conventions, your tooling. `templates/PROMPTS.md` has a prompt that
 interviews you and writes the file from your answers if you would rather talk
 than type.
 
+Do include one rule that tells the assistant where the team's knowledge
+lives and to read it first. In part C that is the wiki, cloned next to this
+repo as `../flowmetrics-wiki`. Without such a line the assistant has no
+reason to look there; a knowledge source nobody points at is not part of
+the harness.
+
 Do not clone the wiki yet, and do not ask an assistant to write your
 constitution out of FlowMetrics documents. A constitution copied from a
 knowledge base you have not read is not a constitution, and it is not the
@@ -126,7 +132,8 @@ exercise.
 
 3. Fresh session again, this time with the **repo root** open and your
    `tables/<name>/TEAM-CONSTITUTION.md` loaded as the assistant's rules. The
-   README table shows how per tool.
+   section "Connect your assistant" in this repo's `README.md` shows how per
+   tool.
 
 4. Copy the same feature request, word for word. Hands off again.
 

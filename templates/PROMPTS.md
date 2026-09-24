@@ -47,8 +47,10 @@ Do not read, clone or search the FlowMetrics wiki, and do not write rules
 about FlowMetrics. This constitution is about my team.
 ```
 
-Then add, by hand, any rule that was announced tonight but is written down
-nowhere. Those are the ones that separate a constitution from a summary.
+Then add, by hand, two things. Any rule that was announced tonight but is
+written down nowhere: those separate a constitution from a summary. And one
+line that points the assistant at the FlowMetrics wiki for run 2, cloned
+next to this repo as `../flowmetrics-wiki`, to be read before changing code.
 
 ---
 
